@@ -24,7 +24,6 @@ var name_input = document.getElementById('list3');
 name_input.value="Eat";
 */
 
-/*
 
 var options = [
     set0 = ['Option 1','Option 2'],
@@ -51,4 +50,5 @@ function makeUL(array) {
 }
 
 // Add the contents of options[0] to #foo:
-document.getElementById('foo').appendChild(makeUL(options[0]));*/
+/*document.getElementById('foo').appendChild(makeUL(options[0]));*/
+window.onload = function(){document.getElementById('foo').appendChild(makeUL(options[0]));};
